@@ -5,7 +5,7 @@ public class Main {
 
         PrintDayType p = new PrintDayType();
 
-        p.printDayType(Day.WENDSDAY);
+        p.printDayType(Day.WEDNESDAY);
         p.printDayType(Day.SATURDAY);
     }
 }

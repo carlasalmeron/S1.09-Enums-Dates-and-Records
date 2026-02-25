@@ -3,8 +3,9 @@ package level3.task2;
 public record Person(String name, int age){
 
     public Person {
+
         if (age < 18) {
-            System.out.println(name + " is underage!");
+            throw new IllegalArgumentException(name + " must be at least 18 years old");
         }
     }
 

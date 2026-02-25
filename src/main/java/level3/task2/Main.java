@@ -3,9 +3,15 @@ package level3.task2;
 public class Main {
     public static void main(String[] args) {
 
-        Person person1 = new Person("Ana Lopez", 20);
-        Person person2 = new Person("Luis Gomez", 15);
+        try {
+            Person p1 = new Person("Carla", 25);
+            p1.sayHello();
 
-        person1.sayHello();
+            Person p2 = new Person("Stephania", 16);
+            p2.sayHello();
+
+        } catch (IllegalArgumentException e) {
+            System.out.println("Error: " + e.getMessage());
+        }
     }
 }

@@ -3,7 +3,7 @@ package level1.task1;
 public enum Day {
     MONDAY(false),
     TUESDAY(false),
-    WENDSDAY(false),
+    WEDNESDAY(false),
     THURSDAY(false),
     FRIDAY(false),
     SATURDAY(true),

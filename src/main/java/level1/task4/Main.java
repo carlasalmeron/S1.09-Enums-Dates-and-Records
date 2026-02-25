@@ -7,8 +7,12 @@ public class Main {
         Level level2 = StringToEnum.parseLevel("Low");
         Level level3 = StringToEnum.parseLevel("Urgent");
 
-        System.out.println(level1);
-        System.out.println(level2);
-        System.out.println(level3);
+        System.out.println("Result 1: " + level1);
+        System.out.println("Result 2: " + level2);
+        System.out.println("Result 3: " + level3);
+
+        if (level3 == Level.UNKNOWN) {
+            System.out.println("Be careful, level 3 was not valid.");
+        }
     }
 }
